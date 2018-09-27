@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MyKotlinContinerAct"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp">
+        <Button
+            android:id="@+id/btn_setReadOnly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SetReadOnly"/>
+
+        <Button
+            android:id="@+id/btn_setMutable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="setmutable"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp">
+        <Button
+            android:id="@+id/btn_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="List"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp">
+        <TextView
+            android:id="@+id/tv_showContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="aa"/>
+
+    </LinearLayout>
+
+</LinearLayout>

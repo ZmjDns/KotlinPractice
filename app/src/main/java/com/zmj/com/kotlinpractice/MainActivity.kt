@@ -3,6 +3,7 @@ package com.zmj.com.kotlinpractice
 import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import com.zmj.com.kotlinpractice.ui.MyKotlinContinerAct
 import com.zmj.com.kotlinpractice.ui.MySecondActivity
 import kotlinx.android.synthetic.main.activity_main.*
 import org.jetbrains.anko.longToast
@@ -32,6 +33,10 @@ class MainActivity : AppCompatActivity() {
             intent.setClass(this,MySecondActivity::class.java)
             //跳转
             startActivity(intent)
+        }
+
+        btn_kotlinContiner.setOnClickListener {
+            startActivity(Intent(this,MyKotlinContinerAct::class.java))
         }
     }
 

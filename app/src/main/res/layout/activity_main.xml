@@ -192,11 +192,23 @@
             android:text="处理字符串"/>
     </LinearLayout>
 
-    <Button
-        android:id="@+id/btn_nextAct"
+    <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="下一个"/>
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_nextAct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下一个"/>
+
+        <Button
+            android:id="@+id/btn_kotlinContiner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Continer"/>
+    </LinearLayout>
+
 
 
 </LinearLayout>
